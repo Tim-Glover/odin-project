@@ -1,0 +1,135 @@
+
+ a{
+     color: #3feee6;
+ }
+ body{
+     max-width: 1080px;
+     margin: 0% auto;
+ }
+ .logo{
+   
+    
+     height: 125px;
+     width: auto;
+  
+
+ }
+ header{
+     height: 125px;
+     background-color: #fc4446;
+    width: 100%;
+   position: sticky;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin: auto 0;
+     padding: 5px;
+ }
+header li{
+    display: inline;
+    padding: 30px;
+    text-decoration: none;
+}
+.Big-Logo{
+    border-radius: 50%;
+    text-align: center;
+}
+
+.content-1{
+    background-color: #3feee6;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 10px 10px;
+
+box-sizing: border-box;
+}
+.content-1 h1{
+    text-align: center;
+   }
+   .fancy{
+       color: #fc4446;
+       
+   }
+#text1{
+    float:left;
+  
+}
+.Big-Logo{
+     float: right;
+     box-sizing: border-box;
+     height: auto;
+
+} 
+.skills{
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    
+}
+
+.content-2{
+    text-align: center;
+    
+    background-color: #55bcc9;
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+
+
+ 
+    
+#box1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc4446;
+    height: 300px;
+    width: 200px;
+    margin-right: 45px;
+    margin-right: 45px;
+box-shadow: 10px 5px 5px #3feee6;
+}
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #3feee6;
+    height: 300px;
+    width: 200px;
+    margin-right: 45px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#box3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+background-color: #fc4446;
+height: 300px;
+width: 200px;
+
+margin-right: 45px;
+box-shadow: 10px 5px 5px gray;
+}
+#box4{
+    display: flex;
+    background-color: #3feee6;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    align-items:center;
+    margin-right: 20px;
+    box-shadow: 10px 5px 5px gray;
+
+}
